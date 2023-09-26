@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B625F21E2AC2A643000161F8 /* Dicee_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B625F21D2AC2A643000161F8 /* Dicee_SwiftUIApp.swift */; };
+		B625F21E2AC2A643000161F8 /* AppEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = B625F21D2AC2A643000161F8 /* AppEntry.swift */; };
 		B625F2202AC2A643000161F8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B625F21F2AC2A643000161F8 /* ContentView.swift */; };
 		B625F2222AC2A645000161F8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B625F2212AC2A645000161F8 /* Assets.xcassets */; };
 		B625F2252AC2A645000161F8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B625F2242AC2A645000161F8 /* Preview Assets.xcassets */; };
@@ -15,7 +15,7 @@
 
 /* Begin PBXFileReference section */
 		B625F21A2AC2A643000161F8 /* Dicee-SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Dicee-SwiftUI.app"; sourceTree = BUILT_PRODUCTS_DIR; };
-		B625F21D2AC2A643000161F8 /* Dicee_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Dicee_SwiftUIApp.swift; sourceTree = "<group>"; };
+		B625F21D2AC2A643000161F8 /* AppEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppEntry.swift; sourceTree = "<group>"; };
 		B625F21F2AC2A643000161F8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B625F2212AC2A645000161F8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B625F2242AC2A645000161F8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
@@ -51,7 +51,7 @@
 		B625F21C2AC2A643000161F8 /* Dicee-SwiftUI */ = {
 			isa = PBXGroup;
 			children = (
-				B625F21D2AC2A643000161F8 /* Dicee_SwiftUIApp.swift */,
+				B625F21D2AC2A643000161F8 /* AppEntry.swift */,
 				B625F21F2AC2A643000161F8 /* ContentView.swift */,
 				B625F2212AC2A645000161F8 /* Assets.xcassets */,
 				B625F2232AC2A645000161F8 /* Preview Content */,
@@ -138,7 +138,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B625F2202AC2A643000161F8 /* ContentView.swift in Sources */,
-				B625F21E2AC2A643000161F8 /* Dicee_SwiftUIApp.swift in Sources */,
+				B625F21E2AC2A643000161F8 /* AppEntry.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
